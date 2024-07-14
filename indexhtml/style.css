@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+.menu li {
+    position: relative;
+    display: inline-block;
+}
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #111;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.submenu li {
+    display: block;
+}
+.submenu li a {
+    padding: 10px 20px;
+}
+.menu li:hover .submenu {
+    display: block;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+.card {
+    background-color: #34495e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
