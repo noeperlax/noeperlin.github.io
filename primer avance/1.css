@@ -27,3 +27,15 @@ body {
     bottom: 0;
     width: 100%;
 }
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center
+  ;height: 100%;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center
+  ;height: 100%;
+}

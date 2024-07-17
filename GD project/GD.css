@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: navy;
+    margin-left: 0px;
+} 
+h4 {
+    background-color: lightblue;
+    color: green;
+}
+h3 {
+    background-color: lightblue;
+    color: purple;
+}
+nav a:hover {
+    color: #9cf3e7;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-left: 100px;}
